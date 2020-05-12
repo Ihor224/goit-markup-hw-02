@@ -67,6 +67,7 @@ body {
 
 /* Auth-nav */
 .auth-nav .link {
+    color: var(--prymery-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -84,6 +85,7 @@ body {
 .hero-title {
     color: var(--white-text-color);
 
+    text-transform: uppercase;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -138,6 +140,7 @@ button:focus {
 .feature-list .title {
     color: var(--secondary-text-color);
 
+    text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -158,6 +161,7 @@ button:focus {
 .work-list .title {
     color: var(--white-text-color);
 
+    text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -171,6 +175,15 @@ button:focus {
 
 .team-list .title {
     color: var(--secondary-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team-list .position {
+    font-size: 16px;
+    line-height: 1.19;
 }
 
 .social-links:hover,
@@ -211,6 +224,7 @@ button:focus {
 .page-footer .text {
     color: var(--white-text-color);
 
+    text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -224,6 +238,10 @@ button:focus {
 
 .copyright {
     color: rgba(255, 255, 255, 0.4);
+
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
 }
 
 /* Стили для Портфолио */
@@ -242,7 +260,7 @@ button:focus {
     letter-spacing: 0.06em;
 }
 
-.list .text {
+.list .name {
     color: var(--prymery-text-color);
 
     font-weight: 400;
@@ -256,4 +274,11 @@ button:focus {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.56;
+}
+
+.list .item {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
